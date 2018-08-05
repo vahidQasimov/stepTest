@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Flexboxes</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style00.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<img src="img/logo.png" />
+				<ul id="menuc">
+					<li><a href="#" id="mobinav" onclick="menuf()"><i class="fas fa-bars"></i></a></li>
+					<li><a href="#one1">About</a></li>
+					<li><a href="#one2">How it works</a></li>
+					<li><a href="#one3">Services</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#contact">Contact</a></li>					
+				</ul>
+			</nav>
+			<div id="slogan">
+				<h1>Fitness in a can<span>/</span></h1>
+				<p>Yes you can<span>/</span></p>
+			</div>
+			<div id="fignya1"></div>
+		</header>
+		<main>
+			<section id="one">
+				<section id="one1" class="container">
+					<div class="redactor">
+						<i class="fas fa-suitcase"></i>
+						<h1>Resources</h1>
+						<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress </p>
+						<a href="">Explore more &#8594;</a>
+					</div>
+					<div class="redactor">
+						<i class="far fa-clock"></i>
+						<h1>Training & Funding</h1>
+						<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress </p>
+						<a href="">Browse training &#8594;</a>
+					</div>
+					<div class="redactor">
+						<i class="fas fa-cloud"></i>
+						<h1>Connect</h1>
+						<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress </p>
+						<a href="">Connect now &#8594;</a>
+					</div>
+					<div class="redactor">
+						<i class="fas fa-comment-alt"></i>
+						<h1>Communicate</h1>
+						<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress </p>
+						<a href="">Start now &#8594;</a>
+					</div>
+				</section>
+				<section id="one2" class="container">
+					<div class="girltext">
+						<h3>It's all about</h3>
+						<h1>Fitness First</h1>
+						<i class="fas fa-tint"></i>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+						<a href="">Read More</a>
+					</div>
+					<div class="girl"></div>
+				</section>
+				<section id="one3" class="container">
+					<div class="girltext">
+						<h3>It's all about</h3>
+						<h1>Fitness First</h1>
+						<i class="fas fa-tint"></i>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+						<a href="">Read More</a>
+					</div>
+					<div class="watch"></div>
+				</section>
+			</section>
+			<section id="two"></section>
+		</main>
+		<footer></footer>
+		<script>
+			function menuf() {
+				document.getElementById("menuc").classList.toggle("over");
+			}
+			window.onscroll = function() {
+				if(window.pageYOffset>500) x="nav1"; else x="";
+				document.getElementsByTagName("nav")[0].className=x;
+			}
+		</script>
+	</body>
+</html>
